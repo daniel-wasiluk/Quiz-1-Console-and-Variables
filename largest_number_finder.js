@@ -3,9 +3,9 @@ const prompt = require('prompt-sync')();
 console.log("This program will check which value you input is the largest!\n\n");
 
 // three inputs, which we will check which is the largest
-let first = parseFloat(prompt("Input the first value: "));
-let second = parseFloat(prompt("Input the second value: "));
-let third = parseFloat(prompt("Input the third value: "));
+let first = prompt("Input the first value: ");
+let second = prompt("Input the second value: ");
+let third = prompt("Input the third value: ");
 
 let temp;
 
